@@ -1,6 +1,6 @@
 
 // [[Page Appearance
 xui.ini.$PageAppearance = {
-    "theme":"default"
+    "theme":"darkblue"
 };
 // ]]Page Appearance
