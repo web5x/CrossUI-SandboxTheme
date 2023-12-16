@@ -29,7 +29,7 @@ xui.Class('App', 'xui.Module',{
                 .setItems([
                     {
                         "id" : "a",
-                        "caption" : "new",
+                        "caption" : "TV",
                         "image" : "",
                         "imageClass" : "xui-uicmd-add"
                     },
@@ -54,6 +54,26 @@ xui.Class('App', 'xui.Module',{
                 .setBarSize("10em")
                 .setSideBarStatus("none")
                 .setValue("a")
+            );
+            
+            host.xui_ui_panel12.append(
+                xui.create("xui.UI.Image")
+                .setHost(host,"xui_ui_image10")
+                .setLeft("-0.38095238095238093em")
+                .setTop("-0.45714285714285713em")
+                .setWidth("9.82857142857143em")
+                .setHeight("9.066666666666666em")
+                .setSrc("https://avatars.githubusercontent.com/u/152233197?v=4")
+            );
+            
+            host.xui_ui_panel12.append(
+                xui.create("xui.UI.Label")
+                .setHost(host,"xui_ui_label18")
+                .setLeft("-3.8857142857142857em")
+                .setTop("9.066666666666666em")
+                .setWidth("12.038095238095238em")
+                .setHeight("1.5238095238095237em")
+                .setCaption("LIVEBOXTEST")
             );
             
             return children;
